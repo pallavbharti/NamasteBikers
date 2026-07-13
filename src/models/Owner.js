@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+// Owner schema definition
 const ownerSchema = new mongoose.Schema({
     firstName: {
         type: String,
